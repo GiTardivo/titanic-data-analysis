@@ -18,6 +18,28 @@ Questa cartella contiene i dataset originali utilizzati nel progetto.
 │   ├── 01_create_tables.sql
 │   ├── 02_data_analysis.sql
 │   ├── data_cleaning.py
+
+Descrizione degli Script
+01_create_tables.sql
+Questo script SQL è utilizzato per creare le tabelle necessarie nel database MySQL per l'analisi dei dati del Titanic. Contiene le istruzioni per:
+Creare le tabelle Train e Test con la struttura appropriata.
+Definire i tipi di dati e le chiavi primarie per ogni tabella.
+
+data_cleaning.py
+Questo script Python esegue la pulizia preliminare dei dataset originali. Le principali operazioni includono:
+Rimozione di spazi bianchi aggiuntivi nei campi.
+Salvataggio dei file puliti nella cartella data/ come clean_train.csv e clean_test.csv
+
+Come usare gli script
+
+Pulizia dei dati:
+Esegui lo script Python per pulire i dataset:
+python scripts/data_cleaning.py
+
+Creazione delle tabelle:
+Importa lo script SQL nel tuo database MySQL per creare le tabelle:
+mysql -u <username> -p titanicdb < scripts/01_create_tables.sql
+
 └── visuals/                # Visualizzazioni e grafici
     ├── survival_by_class.png
     ├── survival_by_sex.png
