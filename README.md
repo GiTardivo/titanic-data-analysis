@@ -27,7 +27,7 @@ Questo script SQL è utilizzato per creare le tabelle necessarie nel database My
 Creare le tabelle Train e Test con la struttura appropriata.
 Definire i tipi di dati e le chiavi primarie per ogni tabella.
 
-data_cleaning.py
+02_data_cleaning.py
 
 Questo script Python esegue la pulizia preliminare dei dataset originali. Le principali operazioni includono:
 Rimozione di spazi bianchi aggiuntivi nei campi.
