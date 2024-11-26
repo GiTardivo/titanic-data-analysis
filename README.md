@@ -43,6 +43,20 @@ Creazione delle tabelle:
 Importa lo script SQL nel tuo database MySQL per creare le tabelle:
 mysql -u <username> -p titanicdb < scripts/01_create_tables.sql
 
+Script di analisi (scripts/03_data_analysis.sql)
+
+Questo file contiene una serie di query SQL per analizzare il dataset Titanic. Le analisi includono:
+
+ Tassi di sopravvivenza in base a classe e sesso.
+Distribuzione dei passeggeri per porto di imbarco.
+Correlazione tra sopravvivenza e dimensione del gruppo familiare.
+ Sopravvivenza in relazione alle tariffe pagate.
+
+Esecuzione:
+
+Importa i dati nel database seguendo le istruzioni di 01_create_tables.sql.
+Esegui le query contenute in 02_data_analysis.sql utilizzando MySQL Workbench o un'interfaccia simile.
+
 └── visuals/                # Visualizzazioni e grafici
     ├── survival_by_class.png
     ├── survival_by_sex.png
