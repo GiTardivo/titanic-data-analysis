@@ -12,7 +12,7 @@ Questa cartella contiene i dataset originali utilizzati nel progetto.
 - `test.csv`: Dataset di test, include informazioni sui passeggeri senza il loro stato di sopravvivenza.
 - `gendersubmission.csv`: Esempio di submission basato sul genere dei passeggeri.
 
-**Nota:** Questi file provengono dalla competizione [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) su Kaggle.
+**Nota:** Questi file provengono dal dataset [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/overview) su Kaggle.
 
 ├── scripts/                # Script per il database e la pulizia dei dati
 │   ├── 01_create_tables.sql
