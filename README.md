@@ -45,12 +45,7 @@ mysql -u <username> -p titanicdb < scripts/01_create_tables.sql
 
 Script di analisi (scripts/03_data_analysis.sql)
 
-Questo file contiene una serie di query SQL per analizzare il dataset Titanic. Le analisi includono:
-
- Tassi di sopravvivenza in base a classe e sesso.
-Distribuzione dei passeggeri per porto di imbarco.
-Correlazione tra sopravvivenza e dimensione del gruppo familiare.
- Sopravvivenza in relazione alle tariffe pagate.
+Questo file contiene una serie di query SQL per analizzare il dataset Titanic. 
 
 Esecuzione:
 
