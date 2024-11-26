@@ -20,6 +20,7 @@ Questa cartella contiene i dataset originali utilizzati nel progetto.
 │   ├── data_cleaning.py
 
 Descrizione degli Script
+
 01_create_tables.sql
 
 Questo script SQL è utilizzato per creare le tabelle necessarie nel database MySQL per l'analisi dei dati del Titanic. Contiene le istruzioni per:
