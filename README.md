@@ -48,7 +48,7 @@ I file puliti sono stati salvati come clean_train.csv e clean_test.csv nella car
 
 2. Analisi dei Dati con SQL
 
-Abbiamo importato i dataset puliti in un database SQL e creato tabelle con lo script 01_create_tables.sql. Le query di analisi sono contenute in 03_data_analysis.sql, dove ho  esplorato per esempio:
+Ho importato i dataset puliti in un database SQL e creato tabelle con lo script 01_create_tables.sql. Le query di analisi sono contenute in 03_data_analysis.sql, dove ho  esplorato per esempio:
 
 Il numero totale di passeggeri per sesso, classe e porto di imbarco.
 Percentuali di sopravvivenza suddivise per variabili come sesso, fascia tariffaria, ed età.
