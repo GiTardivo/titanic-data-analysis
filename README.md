@@ -87,6 +87,10 @@ Grafici:
 
 I file .pbix sono inclusi nella cartella visuals/.
 
+![immagine](https://github.com/user-attachments/assets/54f11b50-1c9a-4f4a-a1d2-89750ef1863f)
+
+![immagine](https://github.com/user-attachments/assets/53943970-a1b0-468b-b7a0-c120b4a9c3da)
+
 
 Risultati Principali
 
