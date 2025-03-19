@@ -16,7 +16,7 @@ Struttura del Progetto
 La cartella del progetto è organizzata come segue:
 
 titanic-analysis/
-├── README.md                 # Descrizione del progetto
+├── README.md                      # Descrizione del progetto
 ├── data/                     # Dataset originale e pulito
 │   ├── train.csv             # Dataset di training originale
 │   ├── test.csv              # Dataset di test originale
